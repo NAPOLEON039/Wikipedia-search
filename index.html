@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='main.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Wikipedia Article Viewer</title>
+</head>
+<body>
+    <div id="intro" class="container text-center">
+        <h1 id="introHeading">Wikipedia Article Viewer</h1>
+    </div>
+    
+    
+    <div id="main" class= "container">
+        <h1 id="mainHeading">Check if an article exists and get a preview</h1>
+        <br>
+        Enter article name here: <input type="text" value="hi" id="inputText"><br><br>
+        <p>
+            <button onclick="getText();" id="submitText" class="btn btn-primary">View related articles</button>
+        </p>
+        <div id="titles" class="container text-center">
+            <h2 id="articleHeading"></h2>
+            <p id="articleBody"></p>
+            <a href="#" id="link" class="btn btn-info" role="button"></a>
+        </div>
+    </div>
+    <script src="demo.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/addons/p5.dom.js"></script>-->
+</body>
+</html>
